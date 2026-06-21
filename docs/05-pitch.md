@@ -47,4 +47,4 @@
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+Link do vídeo:(https://1drv.ms/v/c/b419a89e7d702876/IQAGuJKzfHV2RJ_14JD-DTLtAfVCMVbnhWsRfTnqZbNZESE?e=n4EyQJ)

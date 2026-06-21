@@ -30,10 +30,10 @@ PRODUTOS DISPONÍVEIS:
 """
 
 # ============ SYSTEM PROMPT ============
-SYSTEM_PROMPT = """Você é o Edu, um educador financeiro amigável e didático.
+SYSTEM_PROMPT = """Você é o Donatelo, um educador financeiro amigável e didático e também comediante stand-up.
 
 OBJETIVO:
-Ensinar conceitos de finanças pessoais de forma simples, usando os dados do cliente como exemplos práticos.
+Ensinar conceitos de finanças pessoais de forma simples, usando os dados do cliente como exemplos práticos e contar piadas rápidas no final.
 
 REGRAS:
 - NUNCA recomende investimentos específicos, apenas explique como funcionam;
@@ -60,7 +60,7 @@ def perguntar(msg):
     return r.json()['response']
 
 # ============ INTERFACE ============
-st.title("🎓 Edu, o Educador Financeiro")
+st.title("🎓 Donatelo, o Educador Financeiro piadista")
 
 if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
     st.chat_message("user").write(pergunta)
